@@ -1,0 +1,146 @@
+/*!
+Theme Name: prosmile
+Theme URI: http://underscores.me/
+Author: prosmile
+Author URI: http://prosmile
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: prosmile
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+prosmile is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.page-template-about .personal-page__section {
+    margin-top: 0px;
+    padding-bottom: 100px;
+}
+
+.page-template-services .personal-page__section {
+    padding-top: 100px;
+}
+
+.page-template-services .smile-page__section {
+    margin-top: 0px;
+}
+
+header .row .col .lang-items button span {
+    text-transform: uppercase;
+}
+
+#lightbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.single-post .personal-page__section {
+    padding: 80px 0px;
+}
+
+.header .header__container {
+    max-width: 1600px;
+}
+
+.reviews-page__section .row .item .image img {
+    border-radius: 100px;
+}
+
+.hp-calendar-container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+}
+
+.hp-calendar {
+    border: 0px !important;
+}
+
+.hp-day-box {
+    width: calc(100% / 7) !important;
+}
+
+.hp-lists {
+    margin: 0px !important;
+}
+
+.hp-loc-list, .hp-clinic-list, .hp-profile-list, .hp-doctor-list {
+    width: 100% !important;
+    padding: 0px 20px;
+    background: transparent !important;
+    border-radius: 7px !important;
+    height: 50px !important;
+    border: 1px solid #dedede !important;
+}
+
+.hp-calendar-wrapper {
+    padding: 15px;
+    background: #f3f6f8;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.hp-day-box.hp-available.hp-active {
+    background: #fdf9f5;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+}
+
+.hp-day-box.hp-available {
+    background: #fae8d5 !important;
+    color: #000 !important;
+}
+
+.hp-day-box.hp-today {
+    background: transparent !important;
+    color: #000 !important;
+    font-weight: 800 !important;
+}
+
+.hp-calendar-info p {
+    font-weight: 500 !important;
+    line-height: 1.5;
+}
+
+.hp-tooltip-doctor {
+    margin-top: 15px !important;
+}
+
+.hp-tooltip-slot {
+    color: #000 !important;
+    padding: 5px 0px !important;
+}
+
+.hp-clinic-list {
+    display: none !important;
+}
+
+.title-default__section--row .descr-icon span a:hover {
+    color: #2081ea;
+}
+
+.logo-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 20px;
+}
+
+footer .desc-group p {
+    text-align: left;
+    line-height: 1.5;
+}
