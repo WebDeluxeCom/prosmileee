@@ -203,4 +203,15 @@ add_action('init', function () {
     pll_register_string('mytheme-hello', 'Седация');
     pll_register_string('mytheme-hello', 'Безболезненное и комфортное лечение без стресса и тревоги.');
     pll_register_string('mytheme-hello', '©ProSmile. All Right Reserved');
+	
+	 pll_register_string('mytheme-hello', 'Благодарим за обращение');
+	 pll_register_string('mytheme-hello', 'Наши менеджеры ознакомятся с Вашим резюме и свяжутся с вами');
+	 pll_register_string('mytheme-hello', 'Вернуться на главную');
+	
+	pll_register_string('mytheme-hello', 'Полная / частичная занятость');
+	pll_register_string('mytheme-hello', 'Стоматолог');
+	pll_register_string('mytheme-hello', 'Ортодонт');
+	pll_register_string('mytheme-hello', 'Полная / частичная занятость');
+	pll_register_string('mytheme-hello', 'Стоматолог');
+	pll_register_string('mytheme-hello', 'Полная / частичная занятость');
 });

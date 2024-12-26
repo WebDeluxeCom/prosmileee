@@ -477,12 +477,14 @@ header {
 header .row {
     border: 1px solid rgba(255, 255, 255, .25);
     box-shadow: 0 0 15px rgba(0, 0, 0, .05);
-    background: #e3c19e;
+    background: rgb(255, 255, 255, .25);
     border-radius: 10px;
     padding: 7.5px 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
 }
 
 header .row .col {
@@ -541,7 +543,7 @@ header .row .col .lang-items .additional-langs {
     position: absolute;
     background: #fff;
     padding: 40px 0 10px;
-    width: 48px;
+    width: 38px;
     text-align: center;
     top: 15px;
     border-radius: 10px;
@@ -734,7 +736,7 @@ header .row .col .lang-items:hover .additional-langs {
 }
 
 .hero-page__section .row .left h1 {
-    font-size: 64px;
+    font-size: 52px;
     font-weight: 600;
     line-height: 1.15
 }
@@ -3181,4 +3183,26 @@ header .row .col .lang-items:hover .additional-langs {
     footer .desc-group {
         display: none !important;
     }
+}
+
+header .logo img,
+.footer .row .logo img,
+#popup .logo a img {
+    border-radius: 250px;
+}
+
+.page-template-work footer{
+	margin-top: 0px!important
+}
+
+.page-template-work .pagetitle-page__section button{
+	display: none!important
+}
+
+.page-template-work .pagetitle-page__section h1{
+	padding-bottom: 0px!important
+}
+
+.page-template-work .pagetitle-page__section {
+	min-height: 300px!important
 }

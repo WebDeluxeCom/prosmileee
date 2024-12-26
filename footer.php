@@ -46,6 +46,7 @@ $in = get_field('ssylka_na_instagram', $contacts_page);
                         <li><a target="_blank" href="<?php echo $fb ?>"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/icons/fb.svg" alt=""></a></li>
                         <li><a target="_blank" href="<?php echo $in ?>"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/icons/in.svg" alt=""></a></li>
                     </ul>
+                    <p>ProSmile OÜ, tegevusluba nr L06453</p>
                 </div>
                 <div class="desc-group">
                     <p><?php pll_e('Правильный уход за зубами и полостью рта – это один из самых простых и доступных, но в то же время, эффективных методов профилактики.'); ?></p>
